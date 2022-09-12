@@ -22,11 +22,11 @@
     .oo2{
         border-style: solid;
         border-collapse: collapse;
-        margin: auto;
+        margin: auto;background-color: rgba(204, 37, 196, 0.692);
     }
     .sperma {
         position: fixed;
-        right: 0; margin: 5mm;        padding-left: 20mm;
+        right: 0; margin: 8mm;        padding-left: 60mm;
         padding-right: 20mm;
         
 
