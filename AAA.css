@@ -1,15 +1,36 @@
 .as{
-text-align: center;
+    text-align: center;
+    
+    }
+    .XD{
+        padding-left: 10mm;
+        padding-right: 10mm;
+        
+        
+    }
+    .spacenigger{
+        padding-left: 60mm;
+        padding-right: 60mm;
+        
+        
+    }
+    .oo{
+        border-style: solid;
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .oo2{
+        border-style: solid;
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .sperma {
+        position: fixed;
+        right: 0; margin: 5mm;        padding-left: 2s0mm;
+        padding-right: 20mm;
+        
 
-}
-.XD{
-    padding-left: 10mm;
-    padding-right: 10mm;
-    
-    
-}
-.oo{
-    border-style: solid;
-    border-collapse: collapse;
-    margin: auto;
-}
+    }
+    p.double {border-style: double;}
+    h1{ text-align: center;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}
+    .zentrum{text-align: center;}
