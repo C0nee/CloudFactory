@@ -14,6 +14,15 @@
         
         
     }
+    .heroina {
+
+        margin-left: 20px;
+
+    }
+    .głowa{
+        background-image: url("logo.jpg");
+        background-color: blueviolet;
+    }
     .oo{
         border-style: solid;
         border-collapse: collapse;
