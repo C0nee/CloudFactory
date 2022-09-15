@@ -19,6 +19,11 @@
         margin-left: 20px;
 
     }
+    .sramchujem{
+
+        margin-left: 60px;
+
+    }
     .głowa{
         background-image: url("logo.jpg");
         background-color: blueviolet;
@@ -40,6 +45,23 @@
         
 
     }
+    .spermulec {
+        position: fixed;
+        right: 0; margin: 8mm;        padding-left: 60mm;
+        padding-right: 20mm;
+        
+
+    }
+    .cena {
+        font-size: 72px;
+        
+
+    }
     p.double {border-style: double;}
     h1{ text-align: center;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;}
     .zentrum{text-align: center;}
+.chujwiejakanazwetudackochamseks{
+
+margin: 10mm;
+
+}
