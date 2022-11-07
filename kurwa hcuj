@@ -1,0 +1,4 @@
+/*
+ {
+    get {bool a = true;bool b = true; a = !a; b = !b; return (a , b);}   może działa
+    } */
