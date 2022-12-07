@@ -3,3 +3,22 @@ function cats(int $start, int $finish): int {
   return (int)(($finish-$start)/3)+ (($finish-$start)%3);
  //CHUJ   
 }
+
+
+
+
+function cats(int $start, int $finish): int {
+  $count = 0;
+  $init = $start;
+  while($init < $finish){
+    if($finish - $init < 3){
+      $init++;
+      $count++;
+    }
+    else{
+      $init+=3;
+      $count++;
+    }
+  }
+  return $count;
+}
