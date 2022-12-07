@@ -1,0 +1,5 @@
+function cats(int $start, int $finish): int {
+  
+  return (int)(($finish-$start)/3)+ (($finish-$start)%3);
+ //CHUJ   
+}
