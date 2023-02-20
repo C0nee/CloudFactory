@@ -1,0 +1,16 @@
+private void FixedUpdate()
+    {
+
+        rb.AddForce(transform.forward * controls.y * acceleration, ForceMode.Acceleration);
+        rb.AddTorque(transform.up * controls.x * acceleration, ForceMode.Acceleration);
+
+
+        if (firebuttondown) {
+            GameObject Bullet = Instantiate(BulletPrefab, gunLeft.position, Quaternion.identity);
+            Bullet.transform.parent = null;
+            Bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 10,
+                                                        ForceMode.VelocityChange);
+            firebuttondown = false;
+        }
+        
+    }
