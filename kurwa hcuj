@@ -20,4 +20,15 @@ else if(n == 1){
   }
   return true;
   }
-}
+
+
+
+
+void Update()
+    {
+        transform.Rotate(new Vector3(0, movementVector.x, 0));
+        // transform.position = new Vector3(transform.position.x + movementVector.x * Time.deltaTime,
+        //    0,
+        //  transform.position.z + movementVector.y *Time.deltaTime);
+        transform.Translate(  Vector3.forward * movementVector.y * Time.deltaTime);
+    }
